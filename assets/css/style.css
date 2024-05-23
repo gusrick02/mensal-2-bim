@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #3e2723;
+    font-size: 3em;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+p{
+    color: #3e2723;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #795548;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+button:hover {
+    background-color: #6d4c41;
+}
+
+#coffeeImage {
+    height: 500px;
+    width: 400px; 
+    opacity: 0;
+}
+
+#coffeeImage.active {
+    opacity: 1;
+    animation: fade-in 1s ease forwards;
+}
